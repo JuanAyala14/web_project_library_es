@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <!-- Envuelve todo el contenido de la página en un nuevo div con la clase page Recuerda agregar la etiqueta de cierre -->
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <!-- Se supone que poner enlaces de navegación en una lista es la mejor práctica para escribir el código semántico, ya que permite a los lectores de pantalla hacer una pausa entre cada enlace en lugar de leer todos los enlaces como una oración. -->
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff"
+                >Los preferidos de nuestros lectores</a
+              >
+            </li>
+            <li>
+              <a class="nav__link">Eventos</a>
+            </li>
+            <li>
+              <a class="nav__link">Conviértete en miembro</a>
+            </li>
+            <li>
+              <a class="nav__link">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              Bienvenidos a la biblioteca Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
+              y amplía tus conocimientos sobre desarrollo, o simplemente ven a
+              trabajar o estudiar con nosotros. ¡Este es un lugar genial para
+              estudiantes!
+            </p>
+          </div>
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="staff" id="staff">
+          <h2 class="staff__title">Los preferidos de nuestros lectores</h2>
+          <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Somos nuestro cerebro</h3>
+                <p class="card__text">
+                  Este libro me fascina porque explica cómo nuestro cerebro
+                  determina nuestras emociones y decisiones. Swaab muestra que
+                  nuestras acciones están marcadas por la biología, cuestionando
+                  la idea del libre albedrío. Me hizo ver que somos, en gran
+                  parte, el producto de nuestro cerebro y nuestras experiencias.
+                </p>
+                <p class="card__footer">Dick Swaab</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">El poder de confiar en ti mismo</h3>
+                <p class="card__text">
+                  Me encanta este libro porque me enseñó que la autoconfianza no
+                  es innata, sino algo que se puede desarrollar. Las estrategias
+                  de Tracy sobre cómo superar miedos y establecer metas claras
+                  me han ayudado mucho. Es un recordatorio constante de que la
+                  confianza en uno mismo es clave para alcanzar el éxito.
+                </p>
+                <p class="card__footer">Brian Tracy</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Las 48 leyes del poder</h3>
+                <p class="card__text">
+                  Este libro me atrajo por su análisis profundo del poder y la
+                  psicología humana. Las leyes de Greene, basadas en ejemplos
+                  históricos, enseñan cómo manejar el poder en distintas
+                  situaciones. Me ha hecho más consciente de las dinámicas de
+                  poder en nuestras relaciones y de cómo influir en el mundo que
+                  nos rodea.
+                </p>
+                <p class="card__footer">Robert Greene</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Crónica de una muerte anunciada</h3>
+                <p class="card__text">
+                  Adoro este libro por su mezcla de realismo mágico y tragedia.
+                  La historia de Santiago Nasar, cuya muerte es anunciada pero
+                  nadie evita, refleja cómo las normas sociales pueden
+                  desencadenar tragedias inevitables. García Márquez crea una
+                  atmósfera única que me hace reflexionar sobre el destino y las
+                  decisiones colectivas.
+                </p>
+                <p class="card__footer">Gabriel García Márquez</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
