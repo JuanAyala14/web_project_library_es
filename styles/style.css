@@ -372,7 +372,7 @@
   margin-left: auto;
 }
 .footer__column_content_social {
-  padding-left: 80px;
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -384,7 +384,7 @@
 
 .footer__column-heading {
   margin: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -394,12 +394,12 @@
   margin: 0;
   display: flex;
   flex-direction: column;
+  gap: 16px;
   padding: 0;
 }
 
 .footer__list-item {
   margin: 0;
-  padding-bottom: 16px;
 }
 .footer__list-item-text {
   margin: 0;
