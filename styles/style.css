@@ -407,7 +407,7 @@
   color: white;
   text-decoration: none;
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   column-gap: 10px;
 }
 
